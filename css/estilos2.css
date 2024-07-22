@@ -1,0 +1,97 @@
+body{
+    background-color: black
+}
+#cabecera{
+    height: 12em;
+    background-color: gray;
+}
+#cabecera img{
+    display: flex;
+    width: 12%;
+    padding: 2%;
+    justify-content: left;
+    align-items: center;
+    float: left;
+}
+#cabecera span{
+    display: flex;
+    font-size: 300%;
+    color:#FE9F37;
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    padding: 2%;
+}
+#menu-superior{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#menu-superior ul{
+    list-style: none;
+}
+#menu-superior ul li{
+    display: inline-block;
+}
+#menu-superior ul li a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em
+}
+#menu-superior ul li a:hover{
+    font-size: 2em;
+    color: #7D31B6;
+}
+
+.derecha{
+    float: right;
+    width: 30%;
+    padding: 5%;
+    padding-top: 100px;
+}
+.izquierda{
+    float: left;
+    width: 30%;
+    padding: 5%;
+    font-size: 1.5em;
+    text-align: justify;
+    color: white;
+}
+img{
+    width: 100%;
+}
+#centro{
+    clear: both;
+    font-size: 1.5em;
+    text-align: justify;
+    color: white;
+}
+#fin{
+    clear: both;
+    font-size: 1.5em;
+    text-align: justify;
+    color: white;
+}
+footer{
+    clear: both;
+    background-color: #3E2D62;
+    height: 10em;
+    font-size: 1em;
+    color: white;
+    padding: 1%;
+}
+#final h5{
+    text-align: center;
+}
+#final h6{
+    display: flex;
+    justify-content: flex-start;
+}
+#final img{
+    display: flex;
+    width: 15%;
+    justify-content: flex-end;
+    align-items: center;
+}
